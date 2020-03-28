@@ -54,6 +54,5 @@ var activeButton = document.querySelector("." + currentKey);
   setTimeout(
     function(){
      activeButton.classList.remove("pressed");
-    },100
-  );
+    },120);
 }
